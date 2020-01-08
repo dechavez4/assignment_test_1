@@ -1,0 +1,22 @@
+openapi: 3.0.1
+paths:
+  /api/xxx/count:
+    get:
+      operationId: getRenameMeCount
+      responses:
+        default:
+          description: default response
+          content:
+            application/json:
+              schema:
+                type: string
+  /api/xxx:
+    get:
+      operationId: demo
+      responses:
+        default:
+          description: default response
+          content:
+            application/json:
+              schema:
+                type: string
